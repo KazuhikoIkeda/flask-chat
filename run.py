@@ -6,7 +6,7 @@ app = Flask (__name__)
 app.secret_key = os.getenv("SECRET", "randomstring123")  
 """ Secret key changed to an environment variable. Helps generate session ID """
 messages = []
-
+# test
 def add_message(username, message):
     """ Add messages to the 'messages' list """
     """ 1st set of {} refers to 1st argument = username """
